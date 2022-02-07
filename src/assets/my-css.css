@@ -1,0 +1,286 @@
+
+/* Common */
+
+
+/* Pagination */
+#activePaginationLink{
+    background-color: darkblue;
+    color: white;
+}
+/* Search Bar */
+
+.searchBarinput{ 
+    padding: 2px 2px 2px 4px;
+    border-radius: 12px;
+    border-color: blue;
+    padding-left: 9px;
+}
+.searchBarBtn{
+    margin-left: 2px;
+    border-radius: 22px;
+    background-color: aquamarine;
+    border-color: blue;
+}
+.categoryExtraBtns{
+    margin: 6px;
+    margin-bottom: 10px;
+}
+.searchRecordMainLeft{
+    float: left;
+}
+.addNewRecordMainright{
+    float: right;
+}
+.headingTop{
+    padding: 30px;
+    background: radial-gradient(ellipse at center, #443501 0%,#000000 100%);
+}
+.spanheadingtop{
+    color: #cfc09f;
+	font-family: 'Playfair Display', serif;
+    position: relative;	
+	margin: 0;
+	font-weight: 600;
+	transform: scale(1);
+	text-shadow: -1px 0 1px #c6bb9f, 
+	0 1px 1px #c6bb9f, 
+	5px 5px 10px rgba(0, 0, 0, 0.4),
+	-5px -5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.spanheadingtop::before{
+    content: attr(data-heading);
+    left: 0;
+	top: 0;
+    position: absolute;	
+	z-index: 1;
+	background: linear-gradient(to bottom, #cfc09f 22%,#634f2c 24%, #cfc09f 26%, #cfc09f 27%,#ffecb3 40%,#3a2c0f 78%); 
+    -webkit-text-fill-color: transparent;
+	text-shadow: none;
+}
+
+#headingtopheading{
+    color: white;
+}
+
+
+
+/* Add pages header design */
+
+.designAddsection{
+    background-color: currentColor;
+    height: 300px;
+    margin-bottom: 80px;
+}
+.designcontainuseraddheader{
+    width: 20%;
+    height: 163px;
+    position: relative;
+    top: 215px;
+    left: 39%;
+}
+.designaddimageheader{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Input type */
+
+
+.inputClass:hover{
+    border: 1.5px solid blue;
+}
+
+/* Add and edit root Ctegory Forms */
+
+#alertBoxhide{
+    position: fixed;
+    z-index: 1;
+    opacity: 0;
+    width: -webkit-fill-available;
+    margin-top: -42px;
+    transition: all ease-in-out 1s;
+}
+#alertBoxshow{
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
+    width: -webkit-fill-available;
+    margin-top: 0px;
+    transition: all ease-in-out 1s;
+}
+
+.alertMessage{
+    transition: ease-in-out;
+    padding: 8px;
+    background-color: lightgreen;
+    color: black;
+    width: 82%;
+    text-align: center;
+    margin: 0px !important;
+}
+
+.form21{
+    margin: 7px;
+    overflow-x: hidden;
+}
+.form-control{
+    color: black !important;
+}
+.radioContainer{
+    margin-top: auto;
+}
+.radioinput{
+    margin-left: 20px;
+}
+.labelradio{
+    margin-left: 5px;
+}
+
+/* Html Editor css */
+
+.DraftEditor-root{
+    height: auto !important;
+}
+
+#addProductEditorshortdescription{
+    float: left;
+    width: 47%;
+    margin: 2px;
+}
+#addProductEditordescription{
+    float: right;
+    width: 47%;
+    margin: 2px;
+}
+
+
+/* Meta Information */
+
+.spanmetakeywords{ 
+    font-weight: 900;
+    padding: 9px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 1px 1px antiquewhite;
+   width: fit-content;
+   float: left;
+   margin: 2px;
+}
+
+.spandeletemetakeywords{
+font-size: x-small;
+    border: 1px solid;
+    border-radius: 52%;
+    background-color:springgreen;
+    margin-left: 9px;
+    padding: 2px;
+}
+
+/* Videos Add Product */
+
+.spanVideoAddproduct{
+    position: absolute;
+    margin-top: 19px;
+    margin-left: 23px;
+}
+
+.videoarraycard{
+    padding: 0px !important;
+}
+
+.videocardinner{
+   box-shadow:0px 1px 4px -3px;
+    padding-top: 3px;
+    padding-left: 2px;
+    padding: 0px !important;
+}
+iframe{
+    padding-top: 8px;
+}
+.videodeleteiconaddProduct{
+    margin-left: 20px;
+}
+
+
+/* Modal  */
+
+
+.modal-dialog{
+    max-width: 80% !important;
+}
+.modal-body{
+    padding: 0px !important;
+}
+
+
+/* Edit Product */
+
+.imgeditImagesArrayProduct{
+    width: 58px;
+    height: 40px;
+}
+
+.iEditSigneditProductImage{
+    top: 0px !important;
+}
+.spaneditIconProductEdit{
+    margin-left: 16px;
+}
+.spandeleteeditProductImage{
+    margin-left: 20px;
+}
+#hidesuccessAlertModalVendor{
+    background-color: lightgreen;
+    padding: 3px;
+    width: -webkit-fill-available;
+    padding-left: 25%;
+    transition: all ease-in-out 1s;
+    opacity: 0;
+    position: fixed;
+    z-index: 1;
+    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-top: -37px;
+}
+.showsuccessAlertModalVendor{
+    background-color: lightgreen;
+    padding: 3px;
+    width: -webkit-fill-available;
+    padding-left: 25%;
+    transition: all ease-in-out 1s;
+    opacity: 1;
+    position: fixed;
+    z-index: 1;
+    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-top: 0px;
+}
+
+.showsuccessAlertModalImage{
+    background-color: lightgreen;
+    padding: 3px;
+    width: -webkit-fill-available;
+    padding-left: 25%;
+    transition: all ease-in-out 1s;
+    opacity: 1;
+    position: fixed;
+    z-index: 1;
+    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-top: 0px;
+}
+#hidesuccessAlertModalImage{
+    background-color: lightgreen;
+    padding: 3px;
+    width: -webkit-fill-available;
+    padding-left: 25%;
+    transition: all ease-in-out 1s;
+    opacity: 0;
+    position: fixed;
+    z-index: 1;
+    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-top: -37px;
+}
+
+.imodalsuccessicon{
+    margin-right: 2px;
+}
+
